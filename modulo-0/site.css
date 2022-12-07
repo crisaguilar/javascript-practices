@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hotel-header > h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.hotel-body {
+  margin: auto;
+  max-width: 90%;
+
+}
+
+.hotel-item {
+  padding: 16px;
+  border-radius: 2px;
+  border: 1px solid #9c9c9c;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.hotel-name-container {
+  max-width: 300px;
+  padding-right: 25px;
+}
+
+.hotel-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.responsive {
+  width: 150px;
+  height:auto;
+
+}
+
+.hotel-description-container {
+  padding-top: 10px;
+  padding-left: 25px;
+  max-width: 300px;
+
+}
+
+.hotel-description {
+  font-size: 18px;
+  width: 300px
+}
+
+.hotel-tepelophone-container {
+  max-width: 250px;
+}
+
+.hotel-telephone{
+  text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.checked {
+  color: orange;
+}
+
+.hotel-stars {
+  max-width: 100px;
+}
