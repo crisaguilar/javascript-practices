@@ -1,4 +1,5 @@
  //Parte 1
+
 // var hotel = {
 //   name: "Cerro de Hijar",
 //   location: "Tolox",
@@ -13,7 +14,7 @@
 
 // var rating = prompt("Puntue del 1 al 5");
 
-// document.getElementById("score").innerHTML = "Puntuación " rating + " Estrellas";
+// document.getElementById("score").innerHTML = rating + " Estrellas";
 
 // var anonymous = confirm("¿Te gustaría que la respuesta fuera anonima?")
 // document.getElementById("anonymous").checked = anonymous
@@ -69,4 +70,3 @@ document.getElementById("score").innerHTML = stars[rating];
 var anonymous = confirm("¿Te gustaría que la respuesta fuera anonima?")
 document.getElementById("anonymous").checked = anonymous
 
-document.getElementById("anonymous").checked = anonymous
