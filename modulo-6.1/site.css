@@ -1,0 +1,63 @@
+.container {
+  width: 350px;
+display: ;
+}
+
+.product-container {
+  width: 350 px;
+  border: black 1px solid;
+
+  text-align: center;
+}
+.product-div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.product-number {
+  margin-left: 5px;
+  size: 40px;
+  float: left;
+}
+
+.product-name {
+  margin: auto;
+  text-align: center;
+}
+input {
+  float: right;
+  width: 35px;
+}
+
+button {
+  background-color: #3f9442; 
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 8px;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 15px;
+  cursor: pointer;
+
+
+}
+button:hover {
+  background-color: #66c369;
+  color:white; 
+
+}
+
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
+button:disabled {
+ background-color: gray;
+}
+.subtotal,
+.iva,
+.total {
+  text-align: end;
+  margin-right: 5px;
+}
