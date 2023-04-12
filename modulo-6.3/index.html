@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>modulo-6.3</title>
+    <link rel="stylesheet" href="./site.css" />
+  </head>
+  <body>
+    <h1>Calculadora de cambio</h1>
+    <div id="container" class="container">
+      <div id="toPayContainer" class="to-pay-container">
+        <div>
+          <p>Total a pagar:</p>
+          <input id="totalPay" type="number" />
+        </div>
+        <div>
+          <p>Cantidad entregada:</p>
+          <input id="amount" type="number" />
+        </div>
+      </div>
+
+      <button id="calculateButton">Result</button>
+      <div>
+        <p>Total a devolver:</p>
+        <label id="total">0 €</label>
+      </div>
+      <div>
+        <p>A devolver:</p>
+        <div id="returnMoney"></div>
+      </div>
+    </div>
+    <!-- 
+    <script src="./app.js"></script> -->
+    <script src="./calculator.js"></script>
+  </body>
+</html>
